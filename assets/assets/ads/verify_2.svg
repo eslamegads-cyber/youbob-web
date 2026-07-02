@@ -1,11 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400">
-  <rect width="100%" height="100%" fill="#F6F8FA" rx="18"/>
-  <g transform="translate(32,44)" fill="#0F1724" font-family="sans-serif">
-    <text x="0" y="0" font-size="24" font-weight="800">مزايا التوثيق</text>
-    <text x="0" y="36" font-size="14" opacity="0.9">- حماية الحساب \n- ظهور في نتائج البحث \n- استرجاع الحساب أسرع</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#161A2B"/><stop offset="1" stop-color="#3D245F"/></linearGradient></defs>
+  <rect width="800" height="500" rx="34" fill="url(#bg)"/>
+  <path d="M0 390C170 300 300 470 470 365s235-62 330-4v139H0z" fill="#FFFFFF" opacity=".05"/>
+  <g transform="translate(78 84)">
+    <circle cx="166" cy="166" r="166" fill="#FFFFFF" opacity=".08"/>
+    <path d="M79 147h92l104-62v161l-104-59H79z" fill="#FFFFFF"/>
+    <path d="M104 187l20 83h55l-8-83z" fill="#D7C3FF"/>
+    <path d="M292 119c30 22 30 72 0 94M318 94c53 43 53 120 0 164" fill="none" stroke="#C9A7FF" stroke-width="13" stroke-linecap="round"/>
   </g>
-  <g transform="translate(380,110)">
-    <circle cx="40" cy="40" r="40" fill="#2F6BFF"/>
-    <text x="22" y="48" fill="#fff" font-size="22" font-weight="800">✓</text>
+  <g transform="translate(470 80)">
+    <rect width="260" height="340" rx="30" fill="#FFFFFF"/>
+    <rect x="28" y="29" width="112" height="16" rx="8" fill="#3D245F" opacity=".23"/>
+    <rect x="28" y="62" width="204" height="112" rx="20" fill="#F2ECFA"/>
+    <path d="M62 145v-30M94 145V90M126 145v-42M158 145V75M190 145v-24" stroke="#7B4FB2" stroke-width="13" stroke-linecap="round"/>
+    <g transform="translate(28 200)">
+      <circle cx="22" cy="22" r="22" fill="#2E9D62"/><path d="M12 22l7 7 14-16" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <rect x="60" y="14" width="150" height="16" rx="8" fill="#202333" opacity=".16"/>
+    </g>
+    <g transform="translate(28 264)">
+      <circle cx="22" cy="22" r="22" fill="#2E9D62"/><path d="M12 22l7 7 14-16" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+      <rect x="60" y="14" width="130" height="16" rx="8" fill="#202333" opacity=".16"/>
+    </g>
   </g>
+  <g transform="translate(415 52)"><circle cx="35" cy="35" r="35" fill="#9B111E"/><path d="M35 13l7 12 14 3-10 11 2 15-13-7-13 7 2-15-10-11 14-3z" fill="#fff"/></g>
 </svg>
